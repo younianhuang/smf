@@ -1,0 +1,3966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GLMark</class>
+ <widget class="QMainWindow" name="GLMark">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>630</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GLMark</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>610</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_general_test">
+     <attribute name="title">
+      <string>Rendering Sample</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonGeneralTest">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_conf">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>141</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Configuration</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="indent">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="group_lay">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>85</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="border_lay">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_lay">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>5</y>
+         <width>80</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Layout</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="size_lay">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>4</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="x_lay">
+        <property name="geometry">
+         <rect>
+          <x>55</x>
+          <y>13</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>x</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="row_spin">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>5</y>
+          <width>45</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="column_spin">
+        <property name="geometry">
+         <rect>
+          <x>72</x>
+          <y>5</y>
+          <width>45</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_pix">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>156</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_pix">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>125</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Pixel Format</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_pix">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="radios_pix">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>5</y>
+         <width>245</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QRadioButton" name="radio_rgb32">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>10</y>
+          <width>72</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>RGB32</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_yuv420">
+        <property name="geometry">
+         <rect>
+          <x>84</x>
+          <y>10</y>
+          <width>82</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>YUV420</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_yv12">
+        <property name="geometry">
+         <rect>
+          <x>173</x>
+          <y>10</y>
+          <width>63</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>YV12</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_video">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>226</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_video">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>170</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Video Resolution</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_video">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="radios_video">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>5</y>
+         <width>256</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QRadioButton" name="radio_CIF">
+        <property name="geometry">
+         <rect>
+          <x>2</x>
+          <y>10</y>
+          <width>50</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CIF</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_D1">
+        <property name="geometry">
+         <rect>
+          <x>56</x>
+          <y>10</y>
+          <width>50</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>D1</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_720p">
+        <property name="geometry">
+         <rect>
+          <x>107</x>
+          <y>10</y>
+          <width>60</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>720p</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_1080p">
+        <property name="geometry">
+         <rect>
+          <x>172</x>
+          <y>10</y>
+          <width>70</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>1080p</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_screen">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>300</y>
+        <width>710</width>
+        <height>90</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_screen_resolution">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>170</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Screen Resolution</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_screen">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_screen_frequncy">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>45</y>
+         <width>105</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Frequency</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxResolution">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>15</y>
+         <width>120</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxFrequency">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>55</y>
+         <width>69</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSaveRenderingSample">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>510</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_unit_test">
+     <attribute name="title">
+      <string>Rendering Benchmark</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonMultipleWindows">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>50</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Video Rendering in Multiple Windows</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox2x2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2 x 2</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox4x4">
+       <property name="geometry">
+        <rect>
+         <x>95</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4 x 4</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox6x6">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6 x 6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox8x8">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8 x 8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>35</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>YV12
+1080p</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Texture Upload Bandwitdh in Different Resolution</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox256x256">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>100</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>256 x 256</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxCIF">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>55</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CIF</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox512x512">
+       <property name="geometry">
+        <rect>
+         <x>175</x>
+         <y>50</y>
+         <width>95</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>512 x 512</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxD1">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>50</y>
+         <width>50</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>D1</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox720p">
+       <property name="geometry">
+        <rect>
+         <x>335</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>720p</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox1080p">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>50</y>
+         <width>75</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1080p</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>35</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>YV12</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonTextureUpload">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>150</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonDifferentResolution">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>250</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>230</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Video Rendering in Different Resolution</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox256x256DifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>100</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>256 x 256</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxCIFDifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>55</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CIF</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox512x512DifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>175</x>
+         <y>50</y>
+         <width>105</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>512 x 512</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxD1DifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>275</x>
+         <y>50</y>
+         <width>50</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>D1</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox720pDifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>335</x>
+         <y>50</y>
+         <width>70</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>720p</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox1080pDifferentResolution">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>50</y>
+         <width>75</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1080p</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>35</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>4 x 4
+YV12</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Video Rendering in Different Format</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxRGB32">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>90</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>RGB32</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxYUV420">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>90</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>YUV420</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxYV12">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>90</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>YV12</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>35</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>4 x 4
+1080p</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonDifferentFormat">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>350</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>430</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Video Rendering in Multiple Monitors</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxSingleProcess">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>210</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Single Process for All Monitors</string>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxMultipleProcesses">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>50</y>
+         <width>210</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>One Process for Each Monitor</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>496</x>
+         <y>15</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>4 x 4
+YV12
+1080p</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonMultipleMonitors">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>450</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRunAll">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>525</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run All</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_test_configuration">
+     <attribute name="title">
+      <string>Test Configuration</string>
+     </attribute>
+     <widget class="QLabel" name="label_conf_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>141</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Configuration</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="indent">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonAdd">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>90</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>140</y>
+        <width>171</width>
+        <height>351</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRunTestConf">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSaveTestConf">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>520</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonDelete">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>90</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonEdit">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>90</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>e</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonUp">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>90</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>^</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonDown">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>90</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>v</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidgetType">
+      <property name="geometry">
+       <rect>
+        <x>16</x>
+        <y>60</y>
+        <width>551</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Rendering</string>
+       </attribute>
+       <widget class="QGroupBox" name="group_mode">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>10</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_mode">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>61</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Mode</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_mode">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="radios_mode">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>5</y>
+           <width>441</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QRadioButton" name="radio_mode_video">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>10</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Video Rendering</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_mode_texture">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>10</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Texture Uploading</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_mode_multiple">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>10</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Multiple Monitors</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_layout">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>70</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="border_layout">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_layout">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>5</y>
+           <width>80</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Layout</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="size_layout">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>4</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="x_layout">
+          <property name="geometry">
+           <rect>
+            <x>55</x>
+            <y>13</y>
+            <width>16</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>x</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="row_spin_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>8</number>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="column_spin_test">
+          <property name="geometry">
+           <rect>
+            <x>72</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>8</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_pix_test">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>130</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_pix_test">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>125</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Pixel Format</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_pix_test">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="radios_pix_test">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>5</y>
+           <width>245</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QRadioButton" name="radio_rgb32_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>10</y>
+            <width>72</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>RGB32</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_yuv420_test">
+          <property name="geometry">
+           <rect>
+            <x>84</x>
+            <y>10</y>
+            <width>82</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>YUV420</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_yv12_test">
+          <property name="geometry">
+           <rect>
+            <x>173</x>
+            <y>10</y>
+            <width>63</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>YV12</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_video_test">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>190</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_video_test">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>170</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Video Resolution</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_video_test">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="radios_video_test">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>5</y>
+           <width>361</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QRadioButton" name="radio_CIF_test">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>10</y>
+            <width>50</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>CIF</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_D1_test">
+          <property name="geometry">
+           <rect>
+            <x>205</x>
+            <y>10</y>
+            <width>50</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>D1</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_720p_test">
+          <property name="geometry">
+           <rect>
+            <x>250</x>
+            <y>10</y>
+            <width>60</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>720p</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_1080p_test">
+          <property name="geometry">
+           <rect>
+            <x>304</x>
+            <y>10</y>
+            <width>61</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>1080p</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_512x512_test">
+          <property name="geometry">
+           <rect>
+            <x>128</x>
+            <y>10</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>512 x 512</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_256x256_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>10</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>256 x 256</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_screen_test">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>250</y>
+          <width>531</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_screen_resolution_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>170</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Screen Resolution</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_screen_test">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>90</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_screen_frequncy_2">
+         <property name="geometry">
+          <rect>
+           <x>55</x>
+           <y>45</y>
+           <width>105</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Frequency</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxTestResolution">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>15</y>
+           <width>120</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxTestFrequency">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>55</y>
+           <width>69</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_process">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>350</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_process">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>151</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Process Setting</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_process">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="radios_process">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>5</y>
+           <width>381</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QRadioButton" name="radio_process_single">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>10</y>
+            <width>181</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Single Process for All Monitors</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="radio_process_one">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>10</y>
+            <width>181</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>One Process for Each Monitor</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_time">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>410</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="border_time">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_time">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>5</y>
+           <width>80</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Time</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="size_time">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>4</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="s_time">
+          <property name="geometry">
+           <rect>
+            <x>55</x>
+            <y>13</y>
+            <width>61</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>seconds</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="time_spin_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>10</number>
+          </property>
+          <property name="maximum">
+           <number>180</number>
+          </property>
+          <property name="value">
+           <number>60</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Decode</string>
+       </attribute>
+       <widget class="QGroupBox" name="group_lay_decode_2">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>10</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="border_lay_decode_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_lay_decode_2">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>5</y>
+           <width>80</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Layout</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="size_lay_decode_2">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>4</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="x_lay_decode_2">
+          <property name="geometry">
+           <rect>
+            <x>55</x>
+            <y>13</y>
+            <width>16</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>x</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="row_spin_decode_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>8</number>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="column_spin_decode_test">
+          <property name="geometry">
+           <rect>
+            <x>72</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>8</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_flag_2">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>70</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_flag_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>125</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Flag</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_flag_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="checkBoxes_flag_3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>5</y>
+           <width>401</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QCheckBox" name="checkBoxRenderingVideo_test">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Rendering Video</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxDecodeVideo_test">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>10</y>
+            <width>121</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Decode Video</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxDownScaling_test">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>10</y>
+            <width>121</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Down Scaling</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_thread_number_2">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>130</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_thread_number_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>170</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Thread Number</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_thread_number_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="spin_border_2">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>4</y>
+           <width>51</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QSpinBox" name="spin_thread_number_test">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>8</number>
+          </property>
+          <property name="value">
+           <number>4</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_timing_control_2">
+        <property name="geometry">
+         <rect>
+          <x>8</x>
+          <y>190</y>
+          <width>531</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_timing_control_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>5</y>
+           <width>170</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Timing Control</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QLabel" name="border_timing_control_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>90</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_rate_2">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>45</y>
+           <width>101</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Rate</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_test">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>54</y>
+           <width>69</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.300000000000000</double>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="checkBoxes_flag_4">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>5</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QCheckBox" name="checkBoxTimingControlEnable_test">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Enable</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="group_time_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>290</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="border_time_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_time_2">
+         <property name="geometry">
+          <rect>
+           <x>2</x>
+           <y>5</y>
+           <width>80</width>
+           <height>40</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>Time</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="indent">
+          <number>10</number>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="size_time_2">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>4</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="QLabel" name="s_time_2">
+          <property name="geometry">
+           <rect>
+            <x>55</x>
+            <y>13</y>
+            <width>61</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>seconds</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="time_spin_test_decode">
+          <property name="geometry">
+           <rect>
+            <x>3</x>
+            <y>5</y>
+            <width>45</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="minimum">
+           <number>10</number>
+          </property>
+          <property name="maximum">
+           <number>180</number>
+          </property>
+          <property name="value">
+           <number>60</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_decode_sample">
+     <attribute name="title">
+      <string>Decode Sample</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonRunDecodeSample">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_conf_decode">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>141</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="text">
+       <string>Configuration</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="indent">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="group_lay_decode">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>85</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="border_lay_decode">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_lay_decode">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>5</y>
+         <width>80</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Layout</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="size_lay_decode">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>4</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="x_lay_decode">
+        <property name="geometry">
+         <rect>
+          <x>55</x>
+          <y>13</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>x</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="row_spin_decode">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>5</y>
+          <width>45</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="column_spin_decode">
+        <property name="geometry">
+         <rect>
+          <x>72</x>
+          <y>5</y>
+          <width>45</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_flag">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>156</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_flag">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>125</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Flag</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_flag">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="checkBoxes_flag">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>5</y>
+         <width>521</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QCheckBox" name="checkBoxRenderingVideo">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>171</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Rendering Video</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBoxDecodeVideo">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>10</y>
+          <width>171</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Decode Video</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBoxDownScaling">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>10</y>
+          <width>141</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Down Scaling</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_thread_number">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>226</y>
+        <width>710</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_thread_number">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>170</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Thread Number</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_thread_number">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="spin_border">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>4</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QSpinBox" name="spin_thread_number">
+        <property name="geometry">
+         <rect>
+          <x>3</x>
+          <y>5</y>
+          <width>45</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+        <property name="value">
+         <number>4</number>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="group_timing_control">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>300</y>
+        <width>710</width>
+        <height>90</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_timing_control_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>5</y>
+         <width>170</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Timing Control</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="border_timing_control">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>710</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rate">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>45</y>
+         <width>101</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Rate</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>54</y>
+         <width>69</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="decimals">
+        <number>1</number>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>1.300000000000000</double>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="checkBoxes_flag_2">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>5</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QCheckBox" name="checkBoxTimingControlEnable">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>81</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Enable</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSaveDecodeSample">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>510</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Decode Benchmark</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_db">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_multiple_windows_db">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Estimate Performance of Video Decoding in Multiple Windows</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>5</number>
+       </property>
+       <property name="indent">
+        <number>10</number>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox2x2_db">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2 x 2</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox4x4_db">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4 x 4</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox6x6_db">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6 x 6</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox8x8_db">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>8 x 8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>424</x>
+         <y>20</y>
+         <width>132</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: gray</string>
+       </property>
+       <property name="text">
+        <string>disable renderer
+4 threads
+enable hw decode</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox1x1_db">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>60</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1 x 1</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonMultipleWindows_db">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>50</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_general_options">
+     <attribute name="title">
+      <string>General Options</string>
+     </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>36</x>
+        <y>38</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Export Report in:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditExportReport">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>571</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonExportReport">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>75</y>
+        <width>99</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Browse..</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>36</x>
+        <y>140</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save Screenshot in:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditSaveScreenshot">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>190</y>
+        <width>571</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSaveScreenshot">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>185</y>
+        <width>99</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Browse..</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSaveGeneralOptions">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>510</y>
+        <width>140</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

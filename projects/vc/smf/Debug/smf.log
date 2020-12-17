@@ -1,0 +1,496 @@
+﻿  SMFLogFileAppenderImpl.cpp
+  SMFLoggerImpl.cpp
+  SMFLogLevel.cpp
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(13,36): warning C4273: 'surveon::mf::log::LOG_LEVEL_OFF': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(25,31): message : 請參閱 'LOG_LEVEL_OFF' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(15,36): warning C4273: 'surveon::mf::log::LOG_LEVEL_FATAL': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(30,31): message : 請參閱 'LOG_LEVEL_FATAL' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(17,36): warning C4273: 'surveon::mf::log::LOG_LEVEL_ERROR': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(35,31): message : 請參閱 'LOG_LEVEL_ERROR' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(19,34): warning C4273: 'surveon::mf::log::LOG_LEVEL_WARN': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(40,31): message : 請參閱 'LOG_LEVEL_WARN' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(21,35): warning C4273: 'surveon::mf::log::LOG_LEVEL_INFO': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(46,31): message : 請參閱 'LOG_LEVEL_INFO' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(23,35): warning C4273: 'surveon::mf::log::LOG_LEVEL_DEBUG': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(51,31): message : 請參閱 'LOG_LEVEL_DEBUG' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(25,36): warning C4273: 'surveon::mf::log::LOG_LEVEL_TRACE': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(56,31): message : 請參閱 'LOG_LEVEL_TRACE' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(27,37): warning C4273: 'surveon::mf::log::LOG_LEVEL_ALL': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(61,32): message : 請參閱 'LOG_LEVEL_ALL' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogLevel.cpp(29,37): warning C4273: 'surveon::mf::log::LOG_LEVEL_NOT_SET': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogLevel.h(67,32): message : 請參閱 'LOG_LEVEL_NOT_SET' 之前的定義
+  SMFLogManager.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(12,30): warning C4273: 'surveon::mf::log::LogManager::LogManager': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(31,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(19,1): warning C4273: 'surveon::mf::log::LogManager::~LogManager': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(32,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(24,1): warning C4273: 'surveon::mf::log::LogManager::initialize': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(23,10): message : 請參閱 'initialize' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(29,1): warning C4273: 'surveon::mf::log::LogManager::shutdown': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(24,10): message : 請參閱 'shutdown' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(34,1): warning C4273: 'surveon::mf::log::LogManager::getLogger': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(26,14): message : 請參閱 'getLogger' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(39,1): warning C4273: 'surveon::mf::log::LogManager::createFileAppender': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(27,20): message : 請參閱 'createFileAppender' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\log\SMFLogManager.cpp(44,1): warning C4273: 'surveon::mf::log::LogManager::createRollingFileAppender': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\log\SMFLogManager.h(28,27): message : 請參閱 'createRollingFileAppender' 之前的定義
+  SMFLogManagerImpl.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFRollingFileAppenderImpl.cpp
+  SMFCoreLog.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFDynamicLibrary.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFHighResolutionClock.cpp
+  SMFMediaManager.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(15,30): warning C4273: 'surveon::mf::MediaManager::MediaManager': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(70,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(22,1): warning C4273: 'surveon::mf::MediaManager::~MediaManager': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(71,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(27,1): warning C4273: 'surveon::mf::MediaManager::initialize': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(31,10): message : 請參閱 'initialize' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(62,1): warning C4273: 'surveon::mf::MediaManager::shutdown': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(32,10): message : 請參閱 'shutdown' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(85,1): warning C4273: 'surveon::mf::MediaManager::loadPlugin': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(34,10): message : 請參閱 'loadPlugin' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(91,1): warning C4273: 'surveon::mf::MediaManager::unloadPlugin': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(35,10): message : 請參閱 'unloadPlugin' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(97,1): warning C4273: 'surveon::mf::MediaManager::unloadAllPlugins': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(36,10): message : 請參閱 'unloadAllPlugins' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(103,1): warning C4273: 'surveon::mf::MediaManager::installPlugin': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(37,10): message : 請參閱 'installPlugin' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(108,1): warning C4273: 'surveon::mf::MediaManager::uninstallPlugin': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(38,10): message : 請參閱 'uninstallPlugin' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(113,1): warning C4273: 'surveon::mf::MediaManager::registerFileSourceFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(43,10): message : 請參閱 'registerFileSourceFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(120,1): warning C4273: 'surveon::mf::MediaManager::unregisterFileSourceFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(44,10): message : 請參閱 'unregisterFileSourceFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(128,1): warning C4273: 'surveon::mf::MediaManager::createSourceFromFile': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(40,19): message : 請參閱 'createSourceFromFile' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(135,1): warning C4273: 'surveon::mf::MediaManager::destroyFileSource': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(41,10): message : 請參閱 'destroyFileSource' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(142,1): warning C4273: 'surveon::mf::MediaManager::createSourceFromURL': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(46,19): message : 請參閱 'createSourceFromURL' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(149,1): warning C4273: 'surveon::mf::MediaManager::destroyURLSource': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(47,10): message : 請參閱 'destroyURLSource' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(156,1): warning C4273: 'surveon::mf::MediaManager::destroyMediaSource': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(49,10): message : 請參閱 'destroyMediaSource' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(163,1): warning C4273: 'surveon::mf::MediaManager::registerURLSourceFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(51,10): message : 請參閱 'registerURLSourceFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(170,1): warning C4273: 'surveon::mf::MediaManager::unregisterURLSourceFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(52,10): message : 請參閱 'unregisterURLSourceFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(178,1): warning C4273: 'surveon::mf::MediaManager::createMediaTransform': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(55,22): message : 請參閱 'createMediaTransform' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(184,1): warning C4273: 'surveon::mf::MediaManager::destroyMediaTransform': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(56,10): message : 請參閱 'destroyMediaTransform' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(190,1): warning C4273: 'surveon::mf::MediaManager::getMediaTransformAttributes': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(57,17): message : 請參閱 'getMediaTransformAttributes' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(196,1): warning C4273: 'surveon::mf::MediaManager::registerMediaTransformFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(59,10): message : 請參閱 'registerMediaTransformFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(203,1): warning C4273: 'surveon::mf::MediaManager::unregisterMediaTransformFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(60,10): message : 請參閱 'unregisterMediaTransformFactory' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(210,1): warning C4273: 'surveon::mf::MediaManager::createClock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(62,13): message : 請參閱 'createClock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(227,1): warning C4273: 'surveon::mf::MediaManager::destroyClock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(63,10): message : 請參閱 'destroyClock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(232,1): warning C4273: 'surveon::mf::MediaManager::createPresentationClock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(64,25): message : 請參閱 'createPresentationClock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(237,1): warning C4273: 'surveon::mf::MediaManager::destroyPresentationClock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(65,10): message : 請參閱 'destroyPresentationClock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\pipeline\SMFMediaManager.cpp(242,1): warning C4273: 'surveon::mf::MediaManager::getCommandQueue': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\pipeline\SMFMediaManager.h(67,24): message : 請參閱 'getCommandQueue' 之前的定義
+  SMFMediaTransformManager.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFPluginManager.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFPresentationClockImpl.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFSourceResolver.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFPixelFormat.cpp
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPixelFormat.cpp(13,1): warning C4273: 'surveon::mf::PixelFormatDescriptor::getPixelFormatDescription': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPixelFormat.h(31,42): message : 請參閱 'getPixelFormatDescription' 之前的定義
+  SMFPlaneInfo.cpp
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(12,1): warning C4273: 'surveon::mf::PlaneInfo::PlaneInfo': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(39,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(17,1): warning C4273: 'surveon::mf::PlaneInfo::~PlaneInfo': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(41,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(20,1): warning C4273: 'surveon::mf::PlaneInfo::getNumberOfPlanes': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(43,12): message : 請參閱 'getNumberOfPlanes' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(25,1): warning C4273: 'surveon::mf::PlaneInfo::getPlaneData': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(45,22): message : 請參閱 'getPlaneData' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(31,1): warning C4273: 'surveon::mf::PlaneInfo::addPlane': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(47,10): message : 請參閱 'addPlane' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(36,1): warning C4273: 'surveon::mf::PlaneInfo::setPixelBufferPtr': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(49,10): message : 請參閱 'setPixelBufferPtr' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFPlaneInfo.cpp(45,1): warning C4273: 'surveon::mf::PlaneInfo::clearPlaneDatas': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFPlaneInfo.h(51,10): message : 請參閱 'clearPlaneDatas' 之前的定義
+  SMFRect.cpp
+  SMFSystemMemoryBufferFactory.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFSystemMemoryBufferFactory.cpp(15,1): warning C4273: 'surveon::mf::getSystemMemoryMediaBufferFactory': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFIMediaBufferFactory.h(29,30): message : 請參閱 'getSystemMemoryMediaBufferFactory' 之前的定義
+  SMFSystemMemoryMediaBuffer.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  SMFSystemMemoryVideoBuffer.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+  正在產生程式碼...
+  正在編譯...
+  SMFWrapperMediaBuffer.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(9,46): warning C4273: 'surveon::mf::WrapperMediaBuffer::WrapperMediaBuffer': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(19,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(19,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::~WrapperMediaBuffer': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(20,14): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(24,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::getMaxLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(22,20): message : 請參閱 'getMaxLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(29,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::setCurrentLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(24,18): message : 請參閱 'setCurrentLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(34,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::getCurrentLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(25,20): message : 請參閱 'getCurrentLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(39,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::lock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(27,20): message : 請參閱 'lock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(44,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::unlock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(28,18): message : 請參閱 'unlock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(49,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::isLocked': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(29,18): message : 請參閱 'isLocked' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(54,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::isReferenced': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(31,18): message : 請參閱 'isReferenced' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(59,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::setReferenced': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(32,18): message : 請參閱 'setReferenced' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(67,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::waitUntilFree': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(33,18): message : 請參閱 'waitUntilFree' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(72,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::setTimestamp': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(35,18): message : 請參閱 'setTimestamp' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(77,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::getTimestamp': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(36,27): message : 請參閱 'getTimestamp' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(82,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::getPrivateData': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(38,19): message : 請參閱 'getPrivateData' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperMediaBuffer.cpp(87,1): warning C4273: 'surveon::mf::WrapperMediaBuffer::getAttributes': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperMediaBuffer.h(40,25): message : 請參閱 'getAttributes' 之前的定義
+  SMFWrapperVideoBuffer.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(9,46): warning C4273: 'surveon::mf::WrapperVideoBuffer::WrapperVideoBuffer': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(18,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(18,84): warning C4273: 'surveon::mf::WrapperVideoBuffer::WrapperVideoBuffer': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(19,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(27,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::~WrapperVideoBuffer': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(20,14): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(32,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getMaxLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(22,20): message : 請參閱 'getMaxLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(37,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setCurrentLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(24,18): message : 請參閱 'setCurrentLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(42,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getCurrentLength': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(25,20): message : 請參閱 'getCurrentLength' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(47,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::lock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(27,20): message : 請參閱 'lock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(51,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::unlock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(28,18): message : 請參閱 'unlock' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(56,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::isLocked': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(29,18): message : 請參閱 'isLocked' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(61,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::isReferenced': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(31,18): message : 請參閱 'isReferenced' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(66,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setReferenced': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(32,18): message : 請參閱 'setReferenced' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(71,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::waitUntilFree': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(33,18): message : 請參閱 'waitUntilFree' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(76,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setWidth': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(35,18): message : 請參閱 'setWidth' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(81,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getWidth': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(36,17): message : 請參閱 'getWidth' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(86,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setHeight': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(38,18): message : 請參閱 'setHeight' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(92,2): warning C4273: 'surveon::mf::WrapperVideoBuffer::getHeight': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(39,17): message : 請參閱 'getHeight' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(97,2): warning C4273: 'surveon::mf::WrapperVideoBuffer::setPixelFormat': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(41,18): message : 請參閱 'setPixelFormat' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(106,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getVideoFormat': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(42,26): message : 請參閱 'getVideoFormat' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(111,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::lockPlane': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(43,30): message : 請參閱 'lockPlane' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(117,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::unlockPlane': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(44,18): message : 請參閱 'unlockPlane' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(122,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setTimestamp': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(51,18): message : 請參閱 'setTimestamp' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(127,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getTimestamp': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(52,27): message : 請參閱 'getTimestamp' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(132,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getPrivateData': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(54,19): message : 請參閱 'getPrivateData' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(137,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::getAttributes': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(56,17): message : 請參閱 'getAttributes' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\primitives\SMFWrapperVideoBuffer.cpp(142,1): warning C4273: 'surveon::mf::WrapperVideoBuffer::setBufferPtr': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\primitives\SMFWrapperVideoBuffer.h(58,10): message : 請參閱 'setBufferPtr' 之前的定義
+  SMFException.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(13,43): warning C4273: 'surveon::mf::Exception::Exception': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(18,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(24,5): warning C4273: 'surveon::mf::Exception::~Exception': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(24,14): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(29,5): warning C4273: 'surveon::mf::Exception::getDescription': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(26,19): message : 請參閱 'getDescription' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(34,5): warning C4273: 'surveon::mf::Exception::getLogDescription': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(28,19): message : 請參閱 'getLogDescription' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(49,5): warning C4273: 'surveon::mf::Exception::getFullDescription': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(32,27): message : 請參閱 'getFullDescription' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\SMFException.cpp(73,5): warning C4273: 'surveon::mf::Exception::what': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(34,25): message : 請參閱 'what' 之前的定義
+  SMFAsyncCommandQueue.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(11,69): warning C4273: 'surveon::mf::AsyncCommandQueue::AsyncCommandQueue': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(58,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(18,5): warning C4273: 'surveon::mf::AsyncCommandQueue::~AsyncCommandQueue': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(60,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(24,5): warning C4273: 'surveon::mf::AsyncCommandQueue::addCommand': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(62,10): message : 請參閱 'addCommand' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(35,5): warning C4273: 'surveon::mf::AsyncCommandQueue::getNextCommand': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(64,21): message : 請參閱 'getNextCommand' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(51,5): warning C4273: 'surveon::mf::AsyncCommandQueue::hasMoreCommand': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(66,10): message : 請參閱 'hasMoreCommand' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFAsyncCommandQueue.cpp(57,5): warning C4273: 'surveon::mf::AsyncCommandQueue::executeCommands': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFAsyncCommandQueue.h(68,10): message : 請參閱 'executeCommands' 之前的定義
+  SMFWorkQueue.cpp
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(13,1): warning C4275: 沒有 DLL 介面 class 'std::exception' (用來當做 DLL 介面 class 'surveon::mf::Exception' 的基底)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 請參閱 'std::exception' 的宣告
+D:\projects\career\Infortrend\smf\include\framework\SMFException.h(12): message : 請參閱 'surveon::mf::Exception' 的宣告
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(10,50): warning C4273: 'surveon::mf::Worker::Worker': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(16,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(19,1): warning C4273: 'surveon::mf::Worker::~Worker': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(17,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(24,1): warning C4273: 'surveon::mf::Worker::start': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(19,10): message : 請參閱 'start' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(33,1): warning C4273: 'surveon::mf::Worker::stop': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(20,10): message : 請參閱 'stop' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(42,1): warning C4273: 'surveon::mf::Worker::run': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(23,10): message : 請參閱 'run' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(73,24): warning C4273: 'surveon::mf::WorkQueue::WorkQueue': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(40,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(81,1): warning C4273: 'surveon::mf::WorkQueue::~WorkQueue': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(41,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(86,1): warning C4273: 'surveon::mf::WorkQueue::initialize': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(43,10): message : 請參閱 'initialize' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\thread\SMFWorkQueue.cpp(107,1): warning C4273: 'surveon::mf::WorkQueue::shutdown': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\thread\SMFWorkQueue.h(44,10): message : 請參閱 'shutdown' 之前的定義
+  SMFBitrateCounter.cpp
+D:\projects\career\Infortrend\smf\src\framework\util\SMFBitrateCounter.cpp(11,58): warning C4273: 'surveon::mf::BitrateCounter::BitrateCounter': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFBitrateCounter.h(14,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFBitrateCounter.cpp(21,1): warning C4273: 'surveon::mf::BitrateCounter::reset': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFBitrateCounter.h(25,10): message : 請參閱 'reset' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFBitrateCounter.cpp(28,1): warning C4273: 'surveon::mf::BitrateCounter::accumulate': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFBitrateCounter.h(21,10): message : 請參閱 'accumulate' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFBitrateCounter.cpp(33,1): warning C4273: 'surveon::mf::BitrateCounter::update': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFBitrateCounter.h(23,10): message : 請參閱 'update' 之前的定義
+  SMFClock.cpp
+D:\projects\career\Infortrend\smf\src\framework\util\SMFClock.cpp(13,1): warning C4273: 'surveon::mf::Clock::Clock': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFClock.h(15,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFClock.cpp(18,1): warning C4273: 'surveon::mf::Clock::restart': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFClock.h(17,10): message : 請參閱 'restart' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFClock.cpp(23,1): warning C4273: 'surveon::mf::Clock::getMilliSeconds': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFClock.h(19,19): message : 請參閱 'getMilliSeconds' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFClock.cpp(30,1): warning C4273: 'surveon::mf::Clock::getMicroSeconds': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFClock.h(21,19): message : 請參閱 'getMicroSeconds' 之前的定義
+  SMFFramerateCounter.cpp
+D:\projects\career\Infortrend\smf\src\framework\util\SMFFramerateCounter.cpp(11,62): warning C4273: 'surveon::mf::FramerateCounter::FramerateCounter': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFFramerateCounter.h(14,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFFramerateCounter.cpp(21,1): warning C4273: 'surveon::mf::FramerateCounter::reset': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFFramerateCounter.h(23,10): message : 請參閱 'reset' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFFramerateCounter.cpp(28,1): warning C4273: 'surveon::mf::FramerateCounter::update': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFFramerateCounter.h(21,10): message : 請參閱 'update' 之前的定義
+  SMFReferenceCount.cpp
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(11,38): warning C4273: 'surveon::mf::ReferenceCount::ReferenceCount': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(17,5): message : 請參閱 '{ctor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(17,1): warning C4273: 'surveon::mf::ReferenceCount::~ReferenceCount': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(19,6): message : 請參閱 '{dtor}' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(26,1): warning C4273: 'surveon::mf::ReferenceCount::isReferenced': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(21,10): message : 請參閱 'isReferenced' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(31,1): warning C4273: 'surveon::mf::ReferenceCount::addReference': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(23,10): message : 請參閱 'addReference' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(37,1): warning C4273: 'surveon::mf::ReferenceCount::releaseReference': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(25,10): message : 請參閱 'releaseReference' 之前的定義
+D:\projects\career\Infortrend\smf\src\framework\util\SMFReferenceCount.cpp(52,1): warning C4273: 'surveon::mf::ReferenceCount::waitUntilFree': 不一致的 DLL 連結
+D:\projects\career\Infortrend\smf\include\framework\util\SMFReferenceCount.h(27,10): message : 請參閱 'waitUntilFree' 之前的定義
+  正在產生程式碼...
+     正在建立程式庫 D:\projects\career\Infortrend\smf\projects\vc\smf\Debug\smf.lib 和物件 D:\projects\career\Infortrend\smf\projects\vc\smf\Debug\smf.exp
+LINK : warning LNK4217: 函式 '?getLogger@LogManager@log@mf@surveon@@QAEPAVILogger@234@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: class surveon::mf::log::ILogger * __thiscall surveon::mf::log::LogManager::getLogger(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))' 中的 'SMFLogManager.obj' 已匯入在 'SMFCoreLog.obj' 中定義的符號 '"public: void __thiscall surveon::mf::CoreLog::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@CoreLog@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: 函式 '?createRollingFileAppender@LogManager@log@mf@surveon@@QAEPAVIRollingFileAppender@234@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: class surveon::mf::log::IRollingFileAppender * __thiscall surveon::mf::log::LogManager::createRollingFileAppender(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &))' 中的 'SMFLogManager.obj' 已匯入在 'SMFCoreLog.obj' 中定義的符號 '"public: void __thiscall surveon::mf::CoreLog::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@CoreLog@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: 函式 '?LOG_LEVEL_TRACE@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_TRACE)' 中的 'SMFLogLevel.obj' 已匯入在 'SMFCoreLog.obj' 中定義的符號 '"public: void __thiscall surveon::mf::CoreLog::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@CoreLog@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4286: '?getLogDescription@Exception@mf@surveon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::Exception::getLogDescription(void)const )' 已匯入在 'SMFException.obj' 中定義的符號 'SMFSourceResolver.obj'
+LINK : warning LNK4217: 函式 '?getLogDescription@Exception@mf@surveon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::Exception::getLogDescription(void)const )' 中的 'SMFException.obj' 已匯入在 'SMFDynamicLibrary.obj' 中定義的符號 '"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ)'
+LINK : warning LNK4286: '?getLogDescription@Exception@mf@surveon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::Exception::getLogDescription(void)const )' 已匯入在 'SMFException.obj' 中定義的符號 'SMFMediaTransformManager.obj'
+LINK : warning LNK4286: '?getLogDescription@Exception@mf@surveon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::Exception::getLogDescription(void)const )' 已匯入在 'SMFException.obj' 中定義的符號 'SMFPluginManager.obj'
+LINK : warning LNK4286: '?getLogDescription@Exception@mf@surveon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::Exception::getLogDescription(void)const )' 已匯入在 'SMFException.obj' 中定義的符號 'SMFPresentationClockImpl.obj'
+LINK : warning LNK4286: '?LOG_LEVEL_ERROR@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_ERROR)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFSourceResolver.obj'
+LINK : warning LNK4217: 函式 '?LOG_LEVEL_ERROR@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_ERROR)' 中的 'SMFLogLevel.obj' 已匯入在 'SMFDynamicLibrary.obj' 中定義的符號 '"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ)'
+LINK : warning LNK4286: '?LOG_LEVEL_ERROR@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_ERROR)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFMediaTransformManager.obj'
+LINK : warning LNK4286: '?LOG_LEVEL_ERROR@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_ERROR)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFPluginManager.obj'
+LINK : warning LNK4286: '?LOG_LEVEL_ERROR@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_ERROR)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFPresentationClockImpl.obj'
+LINK : warning LNK4217: 函式 '?LOG_LEVEL_INFO@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_INFO)' 中的 'SMFLogLevel.obj' 已匯入在 'SMFDynamicLibrary.obj' 中定義的符號 '"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ)'
+LINK : warning LNK4286: '?LOG_LEVEL_INFO@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_INFO)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFMediaManager.obj'
+LINK : warning LNK4286: '?LOG_LEVEL_INFO@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_INFO)' 已匯入在 'SMFLogLevel.obj' 中定義的符號 'SMFPluginManager.obj'
+LINK : warning LNK4217: 函式 '??0WorkQueue@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::WorkQueue::WorkQueue(void))' 中的 'SMFWorkQueue.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"private: __thiscall surveon::mf::MediaManager::MediaManager(void)" (??0MediaManager@mf@surveon@@AAE@XZ)'
+LINK : warning LNK4217: 函式 '??1WorkQueue@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::WorkQueue::~WorkQueue(void))' 中的 'SMFWorkQueue.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"private: __thiscall surveon::mf::MediaManager::~MediaManager(void)" (??1MediaManager@mf@surveon@@AAE@XZ)'
+LINK : warning LNK4217: 函式 '?initialize@WorkQueue@mf@surveon@@QAEXI@Z (public: void __thiscall surveon::mf::WorkQueue::initialize(unsigned int))' 中的 'SMFWorkQueue.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"public: void __thiscall surveon::mf::MediaManager::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@MediaManager@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: 函式 '?shutdown@WorkQueue@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::WorkQueue::shutdown(void))' 中的 'SMFWorkQueue.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"public: void __thiscall surveon::mf::MediaManager::shutdown(void)" (?shutdown@MediaManager@mf@surveon@@QAEXXZ)'
+LINK : warning LNK4217: 函式 '?initialize@LogManager@log@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::log::LogManager::initialize(void))' 中的 'SMFLogManager.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"public: void __thiscall surveon::mf::MediaManager::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@MediaManager@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)'
+LINK : warning LNK4217: 函式 '?shutdown@LogManager@log@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::log::LogManager::shutdown(void))' 中的 'SMFLogManager.obj' 已匯入在 'SMFMediaManager.obj' 中定義的符號 '"public: void __thiscall surveon::mf::MediaManager::shutdown(void)" (?shutdown@MediaManager@mf@surveon@@QAEXXZ)'
+LINK : warning LNK4217: 函式 '?LOG_LEVEL_DEBUG@log@mf@surveon@@3HB (int const surveon::mf::log::LOG_LEVEL_DEBUG)' 中的 'SMFLogLevel.obj' 已匯入在 'SMFPresentationClockImpl.obj' 中定義的符號 '"public: virtual void __thiscall surveon::mf::PresentationClockImpl::start(__int64)" (?start@PresentationClockImpl@mf@surveon@@UAEX_J@Z)'
+LINK : warning LNK4217: 函式 '??0ReferenceCount@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::ReferenceCount::ReferenceCount(void))' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '"public: __thiscall surveon::mf::SystemMemoryMediaBuffer::SystemMemoryMediaBuffer(unsigned int,unsigned char)" (??0SystemMemoryMediaBuffer@mf@surveon@@QAE@IE@Z)'
+LINK : warning LNK4286: '??0ReferenceCount@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::ReferenceCount::ReferenceCount(void))' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '??1ReferenceCount@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::ReferenceCount::~ReferenceCount(void))' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '__unwindfunclet$??0SystemMemoryMediaBuffer@mf@surveon@@QAE@IE@Z$2'
+LINK : warning LNK4286: '??1ReferenceCount@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::ReferenceCount::~ReferenceCount(void))' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '?isReferenced@ReferenceCount@mf@surveon@@QBE_NXZ (public: bool __thiscall surveon::mf::ReferenceCount::isReferenced(void)const )' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '"public: virtual bool __thiscall surveon::mf::SystemMemoryMediaBuffer::isReferenced(void)const " (?isReferenced@SystemMemoryMediaBuffer@mf@surveon@@UBE_NXZ)'
+LINK : warning LNK4286: '?isReferenced@ReferenceCount@mf@surveon@@QBE_NXZ (public: bool __thiscall surveon::mf::ReferenceCount::isReferenced(void)const )' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '?addReference@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::addReference(void))' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '"public: virtual void __thiscall surveon::mf::SystemMemoryMediaBuffer::setReferenced(bool)" (?setReferenced@SystemMemoryMediaBuffer@mf@surveon@@UAEX_N@Z)'
+LINK : warning LNK4286: '?addReference@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::addReference(void))' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '?releaseReference@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::releaseReference(void))' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '"public: virtual void __thiscall surveon::mf::SystemMemoryMediaBuffer::setReferenced(bool)" (?setReferenced@SystemMemoryMediaBuffer@mf@surveon@@UAEX_N@Z)'
+LINK : warning LNK4286: '?releaseReference@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::releaseReference(void))' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '?waitUntilFree@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::waitUntilFree(void))' 中的 'SMFReferenceCount.obj' 已匯入在 'SMFSystemMemoryMediaBuffer.obj' 中定義的符號 '"public: virtual void __thiscall surveon::mf::SystemMemoryMediaBuffer::waitUntilFree(void)" (?waitUntilFree@SystemMemoryMediaBuffer@mf@surveon@@UAEXXZ)'
+LINK : warning LNK4286: '?waitUntilFree@ReferenceCount@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::ReferenceCount::waitUntilFree(void))' 已匯入在 'SMFReferenceCount.obj' 中定義的符號 'SMFWrapperMediaBuffer.obj'
+LINK : warning LNK4217: 函式 '?getPixelFormatDescription@PixelFormatDescriptor@mf@surveon@@SAABUPixelFormatDescription@23@W4MediaSubType@23@@Z (public: static struct surveon::mf::PixelFormatDescription const & __cdecl surveon::mf::PixelFormatDescriptor::getPixelFormatDescription(enum surveon::mf::MediaSubType))' 中的 'SMFPixelFormat.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '"private: void __thiscall surveon::mf::SystemMemoryVideoBuffer::allocate(void)" (?allocate@SystemMemoryVideoBuffer@mf@surveon@@AAEXXZ)'
+LINK : warning LNK4286: '?getPixelFormatDescription@PixelFormatDescriptor@mf@surveon@@SAABUPixelFormatDescription@23@W4MediaSubType@23@@Z (public: static struct surveon::mf::PixelFormatDescription const & __cdecl surveon::mf::PixelFormatDescriptor::getPixelFormatDescription(enum surveon::mf::MediaSubType))' 已匯入在 'SMFPixelFormat.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '??0PlaneInfo@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::PlaneInfo::PlaneInfo(void))' 中的 'SMFPlaneInfo.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '"public: __thiscall surveon::mf::SystemMemoryVideoBuffer::SystemMemoryVideoBuffer(int,int,enum surveon::mf::MediaSubType,unsigned char)" (??0SystemMemoryVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@E@Z)'
+LINK : warning LNK4286: '??0PlaneInfo@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::PlaneInfo::PlaneInfo(void))' 已匯入在 'SMFPlaneInfo.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '??1PlaneInfo@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::PlaneInfo::~PlaneInfo(void))' 中的 'SMFPlaneInfo.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '__unwindfunclet$??0SystemMemoryVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@E@Z$2'
+LINK : warning LNK4286: '??1PlaneInfo@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::PlaneInfo::~PlaneInfo(void))' 已匯入在 'SMFPlaneInfo.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '?addPlane@PlaneInfo@mf@surveon@@QAEXABUPlaneData@123@@Z (public: void __thiscall surveon::mf::PlaneInfo::addPlane(struct surveon::mf::PlaneInfo::PlaneData const &))' 中的 'SMFPlaneInfo.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '"private: void __thiscall surveon::mf::SystemMemoryVideoBuffer::allocate(void)" (?allocate@SystemMemoryVideoBuffer@mf@surveon@@AAEXXZ)'
+LINK : warning LNK4286: '?addPlane@PlaneInfo@mf@surveon@@QAEXABUPlaneData@123@@Z (public: void __thiscall surveon::mf::PlaneInfo::addPlane(struct surveon::mf::PlaneInfo::PlaneData const &))' 已匯入在 'SMFPlaneInfo.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '?setPixelBufferPtr@PlaneInfo@mf@surveon@@QAEXPAE@Z (public: void __thiscall surveon::mf::PlaneInfo::setPixelBufferPtr(unsigned char *))' 中的 'SMFPlaneInfo.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '"private: void __thiscall surveon::mf::SystemMemoryVideoBuffer::allocate(void)" (?allocate@SystemMemoryVideoBuffer@mf@surveon@@AAEXXZ)'
+LINK : warning LNK4286: '?setPixelBufferPtr@PlaneInfo@mf@surveon@@QAEXPAE@Z (public: void __thiscall surveon::mf::PlaneInfo::setPixelBufferPtr(unsigned char *))' 已匯入在 'SMFPlaneInfo.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '?clearPlaneDatas@PlaneInfo@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::PlaneInfo::clearPlaneDatas(void))' 中的 'SMFPlaneInfo.obj' 已匯入在 'SMFSystemMemoryVideoBuffer.obj' 中定義的符號 '"private: void __thiscall surveon::mf::SystemMemoryVideoBuffer::deallocate(void)" (?deallocate@SystemMemoryVideoBuffer@mf@surveon@@AAEXXZ)'
+LINK : warning LNK4286: '?clearPlaneDatas@PlaneInfo@mf@surveon@@QAEXXZ (public: void __thiscall surveon::mf::PlaneInfo::clearPlaneDatas(void))' 已匯入在 'SMFPlaneInfo.obj' 中定義的符號 'SMFWrapperVideoBuffer.obj'
+LINK : warning LNK4217: 函式 '??0WrapperMediaBuffer@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::WrapperMediaBuffer::WrapperMediaBuffer(void))' 中的 'SMFWrapperMediaBuffer.obj' 已匯入在 'SMFWrapperVideoBuffer.obj' 中定義的符號 '"public: __thiscall surveon::mf::WrapperVideoBuffer::WrapperVideoBuffer(int,int,enum surveon::mf::MediaSubType)" (??0WrapperVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@@Z)'
+LINK : warning LNK4217: 函式 '??1WrapperMediaBuffer@mf@surveon@@UAE@XZ (public: virtual __thiscall surveon::mf::WrapperMediaBuffer::~WrapperMediaBuffer(void))' 中的 'SMFWrapperMediaBuffer.obj' 已匯入在 'SMFWrapperVideoBuffer.obj' 中定義的符號 '__unwindfunclet$??0WrapperVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@@Z$1'
+LINK : warning LNK4217: 函式 '??0AsyncCommandQueue@mf@surveon@@QAE@PAVSyncControl@012@@Z (public: __thiscall surveon::mf::AsyncCommandQueue::AsyncCommandQueue(class surveon::mf::AsyncCommandQueue::SyncControl *))' 中的 'SMFAsyncCommandQueue.obj' 已匯入在 'SMFWorkQueue.obj' 中定義的符號 '"public: __thiscall surveon::mf::WorkQueue::WorkQueue(void)" (??0WorkQueue@mf@surveon@@QAE@XZ)'
+LINK : warning LNK4217: 函式 '??1AsyncCommandQueue@mf@surveon@@QAE@XZ (public: __thiscall surveon::mf::AsyncCommandQueue::~AsyncCommandQueue(void))' 中的 'SMFAsyncCommandQueue.obj' 已匯入在 'SMFWorkQueue.obj' 中定義的符號 '__unwindfunclet$??0WorkQueue@mf@surveon@@QAE@XZ$0'
+LINK : warning LNK4217: 函式 '?getNextCommand@AsyncCommandQueue@mf@surveon@@QAE?AV?$shared_ptr@VAsyncCommand@mf@surveon@@@std@@XZ (public: class std::shared_ptr<class surveon::mf::AsyncCommand> __thiscall surveon::mf::AsyncCommandQueue::getNextCommand(void))' 中的 'SMFAsyncCommandQueue.obj' 已匯入在 'SMFWorkQueue.obj' 中定義的符號 '"private: void __thiscall surveon::mf::Worker::run(void)" (?run@Worker@mf@surveon@@AAEXXZ)'
+SMFLogFileAppenderImpl.obj : error LNK2019: 在函式 "public: __thiscall log4cplus::PatternLayout::PatternLayout(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0PatternLayout@log4cplus@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)"public: __thiscall surveon::mf::log::FileAppenderImpl::FileAppenderImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0FileAppenderImpl@log@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFRollingFileAppenderImpl.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall log4cplus::PatternLayout::PatternLayout(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0PatternLayout@log4cplus@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SMFLogFileAppenderImpl.obj : error LNK2019: 在函式 "public: void __thiscall log4cplus::helpers::SharedObject::addReference(void)const " (?addReference@SharedObject@helpers@log4cplus@@QBEXXZ)"private: void __thiscall log4cplus::helpers::SharedObjectPtr<class log4cplus::Appender>::addref(void)const " (?addref@?$SharedObjectPtr@VAppender@log4cplus@@@helpers@log4cplus@@ABEXXZ) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall log4cplus::helpers::SharedObject::addReference(void)const " (?addReference@SharedObject@helpers@log4cplus@@QBEXXZ)
+SMFRollingFileAppenderImpl.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall log4cplus::helpers::SharedObject::addReference(void)const " (?addReference@SharedObject@helpers@log4cplus@@QBEXXZ)
+SMFLogFileAppenderImpl.obj : error LNK2019: 在函式 "public: void __thiscall log4cplus::helpers::SharedObject::removeReference(void)const " (?removeReference@SharedObject@helpers@log4cplus@@QBEXXZ)"public: __thiscall log4cplus::helpers::SharedObjectPtr<class log4cplus::Appender>::~SharedObjectPtr<class log4cplus::Appender>(void)" (??1?$SharedObjectPtr@VAppender@log4cplus@@@helpers@log4cplus@@QAE@XZ) 中參考了無法解析的外部符號
+SMFRollingFileAppenderImpl.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall log4cplus::helpers::SharedObject::removeReference(void)const " (?removeReference@SharedObject@helpers@log4cplus@@QBEXXZ)
+SMFLogFileAppenderImpl.obj : error LNK2019: 在函式 "public: __thiscall log4cplus::FileAppender::FileAppender(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,bool,bool)" (??0FileAppender@log4cplus@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N1@Z)"public: __thiscall surveon::mf::log::FileAppenderImpl::FileAppenderImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0FileAppenderImpl@log@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: static class log4cplus::Logger __cdecl log4cplus::Logger::getInstance(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getInstance@Logger@log4cplus@@SA?AV12@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)"public: __thiscall surveon::mf::log::LoggerImpl::LoggerImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0LoggerImpl@log@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: bool __thiscall log4cplus::Logger::isEnabledFor(int)const " (?isEnabledFor@Logger@log4cplus@@QBE_NH@Z)"public: virtual bool __thiscall surveon::mf::log::LoggerImpl::isEnabledFor(int)const " (?isEnabledFor@LoggerImpl@log@mf@surveon@@UBE_NH@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: void __thiscall log4cplus::Logger::log(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,int,char const *)const " (?log@Logger@log4cplus@@QBEXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBDH1@Z)"public: virtual void __thiscall surveon::mf::log::LoggerImpl::log(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?log@LoggerImpl@0mf@surveon@@UBEXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: void __thiscall log4cplus::Logger::forcedLog(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,int,char const *)const " (?forcedLog@Logger@log4cplus@@QBEXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBDH1@Z)"public: virtual void __thiscall surveon::mf::log::LoggerImpl::forcedLog(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)const " (?forcedLog@LoggerImpl@log@mf@surveon@@UBEXHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: int __thiscall log4cplus::Logger::getLogLevel(void)const " (?getLogLevel@Logger@log4cplus@@QBEHXZ)"public: virtual int __thiscall surveon::mf::log::LoggerImpl::getLogLevel(void)const " (?getLogLevel@LoggerImpl@log@mf@surveon@@UBEHXZ) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: void __thiscall log4cplus::Logger::setLogLevel(int)" (?setLogLevel@Logger@log4cplus@@QAEXH@Z)"public: virtual void __thiscall surveon::mf::log::LoggerImpl::setLogLevel(int)" (?setLogLevel@LoggerImpl@log@mf@surveon@@UAEXH@Z) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall log4cplus::Logger::getName(void)const " (?getName@Logger@log4cplus@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)"public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __thiscall surveon::mf::log::LoggerImpl::getName(void)const " (?getName@LoggerImpl@log@mf@surveon@@UBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) 中參考了無法解析的外部符號
+SMFLoggerImpl.obj : error LNK2019: 在函式 "public: virtual __thiscall log4cplus::Logger::~Logger(void)" (??1Logger@log4cplus@@UAE@XZ)"public: virtual __thiscall surveon::mf::log::LoggerImpl::~LoggerImpl(void)" (??1LoggerImpl@log@mf@surveon@@UAE@XZ) 中參考了無法解析的外部符號
+SMFLogManager.obj : error LNK2019: 在函式 "__declspec(dllimport) protected: __thiscall surveon::mf::Singleton<class surveon::mf::log::LogManager,class std::mutex>::Singleton<class surveon::mf::log::LogManager,class std::mutex>(void)" (__imp_??0?$Singleton@VLogManager@log@mf@surveon@@Vmutex@std@@@mf@surveon@@IAE@XZ)"private: __thiscall surveon::mf::log::LogManager::LogManager(void)" (??0LogManager@log@mf@surveon@@AAE@XZ) 中參考了無法解析的外部符號
+SMFLogManagerImpl.obj : error LNK2019: 在函式 "void __cdecl log4cplus::initialize(void)" (?initialize@log4cplus@@YAXXZ)"public: void __thiscall surveon::mf::log::LogManagerImpl::initialize(void)" (?initialize@LogManagerImpl@log@mf@surveon@@QAEXXZ) 中參考了無法解析的外部符號
+SMFRollingFileAppenderImpl.obj : error LNK2019: 在函式 "public: __thiscall log4cplus::RollingFileAppender::RollingFileAppender(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,long,int,bool,bool)" (??0RollingFileAppender@log4cplus@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@JH_N1@Z)"public: __thiscall surveon::mf::log::RollingFileAppenderImpl::RollingFileAppenderImpl(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0RollingFileAppenderImpl@log@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFCoreLog.obj : error LNK2019: 在函式 "__declspec(dllimport) protected: __thiscall surveon::mf::NonCopyable::NonCopyable(void)" (__imp_??0NonCopyable@mf@surveon@@IAE@XZ)"protected: __thiscall surveon::mf::Singleton<class surveon::mf::CoreLog,class std::mutex>::Singleton<class surveon::mf::CoreLog,class std::mutex>(void)" (??0?$Singleton@VCoreLog@mf@surveon@@Vmutex@std@@@mf@surveon@@IAE@XZ) 中參考了無法解析的外部符號
+SMFCoreLog.obj : error LNK2019: 在函式 "__declspec(dllimport) public: static class surveon::mf::log::LogManager * __cdecl surveon::mf::Singleton<class surveon::mf::log::LogManager,class std::mutex>::getInstancePtr(void)" (__imp_?getInstancePtr@?$Singleton@VLogManager@log@mf@surveon@@Vmutex@std@@@mf@surveon@@SAPAVLogManager@log@23@XZ)"public: void __thiscall surveon::mf::CoreLog::initialize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?initialize@CoreLog@mf@surveon@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: static class surveon::mf::log::LogManager * __cdecl surveon::mf::Singleton<class surveon::mf::log::LogManager,class std::mutex>::getInstancePtr(void)" (__imp_?getInstancePtr@?$Singleton@VLogManager@log@mf@surveon@@Vmutex@std@@@mf@surveon@@SAPAVLogManager@log@23@XZ)
+SMFDynamicLibrary.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InternalErrorException::InternalErrorException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InternalErrorException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ) 中參考了無法解析的外部符號
+SMFDynamicLibrary.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InternalErrorException::~InternalErrorException(void)" (__imp_??1InternalErrorException@mf@surveon@@UAE@XZ)"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ) 中參考了無法解析的外部符號
+SMFDynamicLibrary.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InternalErrorException::InternalErrorException(class surveon::mf::InternalErrorException &&)" (__imp_??0InternalErrorException@mf@surveon@@QAE@$$QAV012@@Z)"public: void __thiscall surveon::mf::DynamicLibrary::load(void)" (?load@DynamicLibrary@mf@surveon@@QAEXXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFSystemMemoryBufferFactory.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFDynamicLibrary.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::Exception::Exception(class surveon::mf::Exception const &)" (??0Exception@mf@surveon@@QAE@ABV012@@Z)
+SMFDynamicLibrary.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InternalErrorException::InternalErrorException(class surveon::mf::InternalErrorException const &)" (??0InternalErrorException@mf@surveon@@QAE@ABV012@@Z)
+SMFDynamicLibrary.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InternalErrorException::~InternalErrorException(void)" (??1InternalErrorException@mf@surveon@@UAE@XZ)
+SMFSystemMemoryBufferFactory.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFSystemMemoryBufferFactory.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (__imp_??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (__imp_??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (__imp_??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (__imp_??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (__imp_??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFSystemMemoryBufferFactory.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException &&)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@$$QAV012@@Z)__ehhandler$??$_Freenode@V?$allocator@U?$_Tree_node@PAVIVideoBuffer@mf@surveon@@PAX@std@@@std@@@?$_Tree_node@PAVIVideoBuffer@mf@surveon@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@PAVIVideoBuffer@mf@surveon@@PAX@std@@@1@PAU01@@Z 中參考了無法解析的外部符號
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException &&)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@$$QAV012@@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException &&)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@$$QAV012@@Z)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException &&)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@$$QAV012@@Z)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException &&)" (__imp_??0InvalidParametersException@mf@surveon@@QAE@$$QAV012@@Z)
+SMFMediaManager.obj : error LNK2019: 在函式 "__declspec(dllimport) public: class surveon::mf::AsyncCommandQueue * __thiscall surveon::mf::WorkQueue::getCommandQueue(void)" (__imp_?getCommandQueue@WorkQueue@mf@surveon@@QAEPAVAsyncCommandQueue@23@XZ)"public: class surveon::mf::AsyncCommandQueue * __thiscall surveon::mf::MediaManager::getCommandQueue(void)" (?getCommandQueue@MediaManager@mf@surveon@@QAEPAVAsyncCommandQueue@23@XZ) 中參考了無法解析的外部符號
+SMFMediaManager.obj : error LNK2019: 在函式 "__declspec(dllimport) protected: __thiscall surveon::mf::Singleton<class surveon::mf::MediaManager,class surveon::mf::NullMutex>::Singleton<class surveon::mf::MediaManager,class surveon::mf::NullMutex>(void)" (__imp_??0?$Singleton@VMediaManager@mf@surveon@@VNullMutex@23@@mf@surveon@@IAE@XZ)"private: __thiscall surveon::mf::MediaManager::MediaManager(void)" (??0MediaManager@mf@surveon@@AAE@XZ) 中參考了無法解析的外部符號
+SMFSystemMemoryBufferFactory.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException const &)" (??0InvalidParametersException@mf@surveon@@QAE@ABV012@@Z)
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException const &)" (??0InvalidParametersException@mf@surveon@@QAE@ABV012@@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException const &)" (??0InvalidParametersException@mf@surveon@@QAE@ABV012@@Z)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException const &)" (??0InvalidParametersException@mf@surveon@@QAE@ABV012@@Z)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidParametersException::InvalidParametersException(class surveon::mf::InvalidParametersException const &)" (??0InvalidParametersException@mf@surveon@@QAE@ABV012@@Z)
+SMFSystemMemoryBufferFactory.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFMediaManager.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFPluginManager.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidParametersException::~InvalidParametersException(void)" (??1InvalidParametersException@mf@surveon@@UAE@XZ)
+SMFMediaTransformManager.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0UnsupportFormatException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)"private: class surveon::mf::IMediaTransformFactory * __thiscall surveon::mf::MediaTransformManager::getMediaTransformFactory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getMediaTransformFactory@MediaTransformManager@mf@surveon@@AAEPAVIMediaTransformFactory@23@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0UnsupportFormatException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)
+SMFMediaTransformManager.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::UnsupportFormatException::~UnsupportFormatException(void)" (__imp_??1UnsupportFormatException@mf@surveon@@UAE@XZ)"private: class surveon::mf::IMediaTransformFactory * __thiscall surveon::mf::MediaTransformManager::getMediaTransformFactory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getMediaTransformFactory@MediaTransformManager@mf@surveon@@AAEPAVIMediaTransformFactory@23@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::UnsupportFormatException::~UnsupportFormatException(void)" (__imp_??1UnsupportFormatException@mf@surveon@@UAE@XZ)
+SMFMediaTransformManager.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class surveon::mf::UnsupportFormatException &&)" (__imp_??0UnsupportFormatException@mf@surveon@@QAE@$$QAV012@@Z)"private: class surveon::mf::IMediaTransformFactory * __thiscall surveon::mf::MediaTransformManager::getMediaTransformFactory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getMediaTransformFactory@MediaTransformManager@mf@surveon@@AAEPAVIMediaTransformFactory@23@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中參考了無法解析的外部符號
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class surveon::mf::UnsupportFormatException &&)" (__imp_??0UnsupportFormatException@mf@surveon@@QAE@$$QAV012@@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class surveon::mf::UnsupportFormatException const &)" (??0UnsupportFormatException@mf@surveon@@QAE@ABV012@@Z)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::UnsupportFormatException::UnsupportFormatException(class surveon::mf::UnsupportFormatException const &)" (??0UnsupportFormatException@mf@surveon@@QAE@ABV012@@Z)
+SMFMediaTransformManager.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::UnsupportFormatException::~UnsupportFormatException(void)" (??1UnsupportFormatException@mf@surveon@@UAE@XZ)
+SMFSourceResolver.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::UnsupportFormatException::~UnsupportFormatException(void)" (??1UnsupportFormatException@mf@surveon@@UAE@XZ)
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidOperationException::InvalidOperationException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidOperationException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)"public: virtual __int64 __thiscall surveon::mf::PresentationClockImpl::getPresentationTime(void)" (?getPresentationTime@PresentationClockImpl@mf@surveon@@UAE_JXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidOperationException::~InvalidOperationException(void)" (__imp_??1InvalidOperationException@mf@surveon@@UAE@XZ)"public: virtual __int64 __thiscall surveon::mf::PresentationClockImpl::getPresentationTime(void)" (?getPresentationTime@PresentationClockImpl@mf@surveon@@UAE_JXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidOperationException::InvalidOperationException(class surveon::mf::InvalidOperationException &&)" (__imp_??0InvalidOperationException@mf@surveon@@QAE@$$QAV012@@Z)"public: virtual __int64 __thiscall surveon::mf::PresentationClockImpl::getPresentationTime(void)" (?getPresentationTime@PresentationClockImpl@mf@surveon@@UAE_JXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidStateException::InvalidStateException(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_??0InvalidStateException@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z)"public: virtual void __thiscall surveon::mf::PresentationClockImpl::pause(void)" (?pause@PresentationClockImpl@mf@surveon@@UAEXXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::InvalidStateException::~InvalidStateException(void)" (__imp_??1InvalidStateException@mf@surveon@@UAE@XZ)"public: virtual void __thiscall surveon::mf::PresentationClockImpl::pause(void)" (?pause@PresentationClockImpl@mf@surveon@@UAEXXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::InvalidStateException::InvalidStateException(class surveon::mf::InvalidStateException &&)" (__imp_??0InvalidStateException@mf@surveon@@QAE@$$QAV012@@Z)"public: virtual void __thiscall surveon::mf::PresentationClockImpl::pause(void)" (?pause@PresentationClockImpl@mf@surveon@@UAEXXZ) 中參考了無法解析的外部符號
+SMFPresentationClockImpl.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidOperationException::InvalidOperationException(class surveon::mf::InvalidOperationException const &)" (??0InvalidOperationException@mf@surveon@@QAE@ABV012@@Z)
+SMFPresentationClockImpl.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall surveon::mf::InvalidStateException::InvalidStateException(class surveon::mf::InvalidStateException const &)" (??0InvalidStateException@mf@surveon@@QAE@ABV012@@Z)
+SMFPresentationClockImpl.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidOperationException::~InvalidOperationException(void)" (??1InvalidOperationException@mf@surveon@@UAE@XZ)
+SMFPresentationClockImpl.obj : error LNK2001: 無法解析的外部符號 "public: virtual __thiscall surveon::mf::InvalidStateException::~InvalidStateException(void)" (??1InvalidStateException@mf@surveon@@UAE@XZ)
+SMFPixelFormat.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::PixelFormatDescription::~PixelFormatDescription(void)" (__imp_??1PixelFormatDescription@mf@surveon@@QAE@XZ)"void __cdecl `public: static struct mf::PixelFormatDescriptor::PixelFormatDescription const & __cdecl surveon::mf::PixelFormatDescriptor::getPixelFormatDescription(enum mf::PixelFormatDescriptor::MediaSubType)'::`2'::`dynamic atexit destructor for 's_PixelFormatDescriptions''(void)" (??__Fs_PixelFormatDescriptions@?1??getPixelFormatDescription@PixelFormatDescriptor@mf@surveon@@SAABUPixelFormatDescription@23@W4MediaSubType@23@@Z@YAXXZ) 中參考了無法解析的外部符號
+SMFSystemMemoryVideoBuffer.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::PixelFormatDescription::~PixelFormatDescription(void)" (__imp_??1PixelFormatDescription@mf@surveon@@QAE@XZ)
+SMFSystemMemoryMediaBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::IMediaBuffer::~IMediaBuffer(void)" (__imp_??1IMediaBuffer@mf@surveon@@UAE@XZ)__unwindfunclet$??0SystemMemoryMediaBuffer@mf@surveon@@QAE@IE@Z$0 中參考了無法解析的外部符號
+SMFWrapperMediaBuffer.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::IMediaBuffer::~IMediaBuffer(void)" (__imp_??1IMediaBuffer@mf@surveon@@UAE@XZ)
+SMFSystemMemoryMediaBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::IMediaBuffer::IMediaBuffer(void)" (__imp_??0IMediaBuffer@mf@surveon@@QAE@XZ)"public: __thiscall surveon::mf::SystemMemoryMediaBuffer::SystemMemoryMediaBuffer(unsigned int,unsigned char)" (??0SystemMemoryMediaBuffer@mf@surveon@@QAE@IE@Z) 中參考了無法解析的外部符號
+SMFWrapperMediaBuffer.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::IMediaBuffer::IMediaBuffer(void)" (__imp_??0IMediaBuffer@mf@surveon@@QAE@XZ)
+SMFSystemMemoryVideoBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::PixelFormatDescription::PixelFormatDescription(struct surveon::mf::PixelFormatDescription const &)" (__imp_??0PixelFormatDescription@mf@surveon@@QAE@ABU012@@Z)"private: void __thiscall surveon::mf::SystemMemoryVideoBuffer::allocate(void)" (?allocate@SystemMemoryVideoBuffer@mf@surveon@@AAEXXZ) 中參考了無法解析的外部符號
+SMFSystemMemoryVideoBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: virtual __thiscall surveon::mf::IVideoBuffer::~IVideoBuffer(void)" (__imp_??1IVideoBuffer@mf@surveon@@UAE@XZ)__unwindfunclet$??0SystemMemoryVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@E@Z$0 中參考了無法解析的外部符號
+SMFWrapperVideoBuffer.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: virtual __thiscall surveon::mf::IVideoBuffer::~IVideoBuffer(void)" (__imp_??1IVideoBuffer@mf@surveon@@UAE@XZ)
+SMFSystemMemoryVideoBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: __thiscall surveon::mf::IVideoBuffer::IVideoBuffer(void)" (__imp_??0IVideoBuffer@mf@surveon@@QAE@XZ)"public: __thiscall surveon::mf::SystemMemoryVideoBuffer::SystemMemoryVideoBuffer(int,int,enum surveon::mf::MediaSubType,unsigned char)" (??0SystemMemoryVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@E@Z) 中參考了無法解析的外部符號
+SMFWrapperVideoBuffer.obj : error LNK2001: 無法解析的外部符號 "__declspec(dllimport) public: __thiscall surveon::mf::IVideoBuffer::IVideoBuffer(void)" (__imp_??0IVideoBuffer@mf@surveon@@QAE@XZ)
+SMFWrapperMediaBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) const surveon::mf::WrapperMediaBuffer::`vftable'" (__imp_??_7WrapperMediaBuffer@mf@surveon@@6B@)"public: __thiscall surveon::mf::WrapperMediaBuffer::WrapperMediaBuffer(void)" (??0WrapperMediaBuffer@mf@surveon@@QAE@XZ) 中參考了無法解析的外部符號
+SMFWrapperVideoBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) public: void __thiscall surveon::mf::WrapperMediaBuffer::setBufferPtr(unsigned char *)" (__imp_?setBufferPtr@WrapperMediaBuffer@mf@surveon@@QAEXPAE@Z)"public: void __thiscall surveon::mf::WrapperVideoBuffer::setBufferPtr(unsigned char *)" (?setBufferPtr@WrapperVideoBuffer@mf@surveon@@QAEXPAE@Z) 中參考了無法解析的外部符號
+SMFWrapperVideoBuffer.obj : error LNK2019: 在函式 "__declspec(dllimport) const surveon::mf::WrapperVideoBuffer::`vftable'" (__imp_??_7WrapperVideoBuffer@mf@surveon@@6B@)"public: __thiscall surveon::mf::WrapperVideoBuffer::WrapperVideoBuffer(int,int,enum surveon::mf::MediaSubType)" (??0WrapperVideoBuffer@mf@surveon@@QAE@HHW4MediaSubType@12@@Z) 中參考了無法解析的外部符號
+SMFException.obj : error LNK2019: 在函式 "__declspec(dllimport) const surveon::mf::Exception::`vftable'" (__imp_??_7Exception@mf@surveon@@6B@)"public: __thiscall surveon::mf::Exception::Exception(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Exception@mf@surveon@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H0@Z) 中參考了無法解析的外部符號
+SMFWorkQueue.obj : error LNK2019: 在函式 "__declspec(dllimport) public: class surveon::mf::AsyncCommandQueue::SyncControl * __thiscall surveon::mf::AsyncCommandQueue::getSyncControl(void)" (__imp_?getSyncControl@AsyncCommandQueue@mf@surveon@@QAEPAVSyncControl@123@XZ)"public: __thiscall surveon::mf::Worker::Worker(class surveon::mf::AsyncCommandQueue *)" (??0Worker@mf@surveon@@QAE@PAVAsyncCommandQueue@12@@Z) 中參考了無法解析的外部符號
+D:\projects\career\Infortrend\smf\projects\vc\smf\Debug\smf.dll : fatal error LNK1120: 56 個無法解析的外部符號

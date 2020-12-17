@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\framework">
+      <UniqueIdentifier>{d036d046-2c55-44a3-87b9-570cbc5664a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\framework\log">
+      <UniqueIdentifier>{4c793174-efcf-4059-98c2-1d7c9a263935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\framework\pipeline">
+      <UniqueIdentifier>{6fca04ef-f56b-4c5a-aa1a-a97c3fcb8401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\framework\primitives">
+      <UniqueIdentifier>{e1117807-285c-41ff-b883-7e343c247391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\framework\thread">
+      <UniqueIdentifier>{e346fb29-1f75-41c1-bf34-fe981bea2df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\framework\util">
+      <UniqueIdentifier>{31b325fd-33d0-46d1-b0bd-c60f7349ae42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\log">
+      <UniqueIdentifier>{effad600-0f37-4a13-80af-81e0ea848a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\pipeline">
+      <UniqueIdentifier>{2b8afa3f-aa86-48b5-96c9-19cb7bc49f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\primitives">
+      <UniqueIdentifier>{b3779187-6839-48e4-981a-1c31fe11c3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\thread">
+      <UniqueIdentifier>{cc0e30cc-4926-41dc-a757-b9674a94a355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\util">
+      <UniqueIdentifier>{21f859ef-f81f-49b0-b940-64fe9eb22bb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\framework\SMFConfig.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFException.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFLog.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFPipeline.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFPlatform.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFPrerequisites.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFPrimitives.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFThread.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\SMFUtil.h">
+      <Filter>標頭檔\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFILogAppender.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFILogger.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogLevel.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogManager.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogMarco.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogPrerequisites.h">
+      <Filter>標頭檔\framework\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIClock.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIDeviceManager.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaSource.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaSourceFactory.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaTransform.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaTransformFactory.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIPlugin.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIPresentationClock.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIStreamDescriptor.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIStreamSource.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFMediaManager.h">
+      <Filter>標頭檔\framework\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAny.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAnyHolder.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAttributes.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIMediaBuffer.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIMediaBufferFactory.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIVideoBuffer.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFMediaType.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFPixelFormat.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFPlaneInfo.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFQueue.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFRect.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFSize.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFWrapperMediaBuffer.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFWrapperVideoBuffer.h">
+      <Filter>標頭檔\framework\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncCommand.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncCommandQueue.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncResult.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFMutex.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFThread.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\thread\SMFWorkQueue.h">
+      <Filter>標頭檔\framework\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFBitrateCounter.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFClock.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFContainerUtil.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFFactory.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFFramerateCounter.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFMapIterator.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFNonCopyable.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFReferenceCount.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFSequenceContainerIterator.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFSingleton.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\framework\util\SMFSingletonDetail.h">
+      <Filter>標頭檔\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogAppenderContext.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogFileAppenderImpl.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFLoggerImpl.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogImplPrerequisites.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogManagerImpl.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\log\SMFRollingFileAppenderImpl.h">
+      <Filter>來源檔案\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFClockImpl.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFCoreLog.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFCorePrerequisites.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFDynamicLibrary.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFMediaTransformManager.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFPluginManager.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFPresentationClockImpl.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFSourceResolver.h">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryBufferFactory.h">
+      <Filter>來源檔案\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryMediaBuffer.h">
+      <Filter>來源檔案\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryVideoBuffer.h">
+      <Filter>來源檔案\primitives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\framework\SMFException.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogFileAppenderImpl.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLoggerImpl.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogLevel.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogManager.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogManagerImpl.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\log\SMFRollingFileAppenderImpl.cpp">
+      <Filter>來源檔案\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFCoreLog.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFDynamicLibrary.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFHighResolutionClock.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFMediaManager.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFMediaTransformManager.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFPluginManager.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFPresentationClockImpl.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFSourceResolver.cpp">
+      <Filter>來源檔案\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFPixelFormat.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFPlaneInfo.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFRect.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryBufferFactory.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryMediaBuffer.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryVideoBuffer.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFWrapperMediaBuffer.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFWrapperVideoBuffer.cpp">
+      <Filter>來源檔案\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\thread\SMFAsyncCommandQueue.cpp">
+      <Filter>來源檔案\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\thread\SMFWorkQueue.cpp">
+      <Filter>來源檔案\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\util\SMFBitrateCounter.cpp">
+      <Filter>來源檔案\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\util\SMFClock.cpp">
+      <Filter>來源檔案\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\util\SMFFramerateCounter.cpp">
+      <Filter>來源檔案\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\framework\util\SMFReferenceCount.cpp">
+      <Filter>來源檔案\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

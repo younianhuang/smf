@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b3ea003f-1380-487b-b722-eacf519ec7a0}</ProjectGuid>
+    <RootNamespace>glvr</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVR.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRCapabilities.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRColor.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRConfig.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRException.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIConvexShape.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIRenderable.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIRetangleShape.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIShape.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRISprite.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRITexture.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIVideoPane.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIVideoRenderer.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRLog.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRPrerequisites.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVector2.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVector3.h" />
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVideoRendererManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRConvexShapeImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRImplPrerequisites.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRLog.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRPixmapVideoBuffer.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRRetangleShapeImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRSpriteImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRTextureImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoPaneImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManagerImpl.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRConvexShape.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLContext.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLContextManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLError.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUBufferManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgram.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgramManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRImage.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexBuffer.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexData.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRMaterial.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPixelBuffer.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPredefinedShaders.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRE.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderable.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEngine.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEnginePrerequisites.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderOperation.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderQueue.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderTarget.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindow.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindowFactory.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRetangleShape.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShader.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShape.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTexture.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTextureManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexAttribute.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexBuffer.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexData.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRViewPort.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Defines.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9DeviceManager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Manager.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Surface.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWGLContext.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32Prerequisites.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindow.h" />
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindowFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRColor.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRConvexShapeImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRLog.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRPixmapVideoBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRRetangleShapeImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRSpriteImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRTextureImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoPaneImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManagerImpl.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRConvexShape.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLError.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUBufferManager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgram.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgramManager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRImage.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRMaterial.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPredefinedShaders.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderable.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEngine.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderOperation.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderQueue.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderTarget.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindow.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRetangleShape.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShader.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShape.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTexture.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTextureManager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexAttribute.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexData.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRViewPort.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9DeviceManager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Manager.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Surface.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWGLContext.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindow.cpp" />
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindowFactory.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

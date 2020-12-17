@@ -1,0 +1,68 @@
+v0.1.0.134
+* add canvas enabling UI and svg files
+* fix push button crash issue
+
+v0.1.0.131
+GLVRWidget 
+* fix crash on Linux 
+* fix recursive paint
+
+
+v0.1.0.120
+* add OpenGL Renderer Benchmark Tool GLMark
+	* estimate performance of video rendering in mulitple windows
+	* estimate performance of texture upload bandwitdh in different resoution
+	* estimate performance of video rendering in different resoution 
+	* estimate performance of video rendering in different format
+	* estimate performance of video rendering in mulitple monitor
+
+* rename MediaBuffer and VideoBuffer to IMediaBuffer and IVideoBuffer
+
+v0.1.0.066
+Bug fixing
+	* fix OpenGL GL context destoy fail and memory leak
+	* fix VideoRenderer shutdow crash problem
+    * fix vertex attribute location binding problem in NVR3308	
+
+v0.1.0.051
+========
+Support Platform
+	windows 7
+	ubuntu 13.04
+	
+	
+SMF 0.1.0
+---------
+	* log system
+	* primitives
+		* media buffer
+		* video buffer
+	* exception handling
+	* multi-thread
+		* mutex
+		* thread
+		* condition variable
+		* async command 
+
+GLVR 0.1.0
+----------
+	* requriement
+		OpenGL 3.0.0
+		Shader 1.3.0
+		
+	* Video Render
+		*	Support multiple window rendering
+		*   Support dual monitor 
+		*	renderables:
+			* VideoPane
+				* support video format
+					* rgb32
+					* yv12
+					* yv420
+			* Sprite
+			* Retangle shape
+			* Convex shape
+		*   yv12 to rgb conversion with fragment shader
+			
+	
+	

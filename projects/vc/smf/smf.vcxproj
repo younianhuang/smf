@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{433a5f99-3783-4620-998d-bc5e70554ed0}</ProjectGuid>
+    <RootNamespace>smf</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\framework\log\SMFILogAppender.h" />
+    <ClInclude Include="..\..\..\include\framework\log\SMFILogger.h" />
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogLevel.h" />
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogManager.h" />
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogMarco.h" />
+    <ClInclude Include="..\..\..\include\framework\log\SMFLogPrerequisites.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIClock.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIDeviceManager.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaSource.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaSourceFactory.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaTransform.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIMediaTransformFactory.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIPlugin.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIPresentationClock.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIStreamDescriptor.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFIStreamSource.h" />
+    <ClInclude Include="..\..\..\include\framework\pipeline\SMFMediaManager.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAny.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAnyHolder.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFAttributes.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIMediaBuffer.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIMediaBufferFactory.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFIVideoBuffer.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFMediaType.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFPixelFormat.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFPlaneInfo.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFRect.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFSize.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFWrapperMediaBuffer.h" />
+    <ClInclude Include="..\..\..\include\framework\primitives\SMFWrapperVideoBuffer.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFConfig.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFException.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFLog.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFPipeline.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFPlatform.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFPrerequisites.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFPrimitives.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFThread.h" />
+    <ClInclude Include="..\..\..\include\framework\SMFUtil.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncCommand.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncCommandQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFAsyncResult.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFMutex.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFThread.h" />
+    <ClInclude Include="..\..\..\include\framework\thread\SMFWorkQueue.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFBitrateCounter.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFClock.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFContainerUtil.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFFactory.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFFramerateCounter.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFMapIterator.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFNonCopyable.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFReferenceCount.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFSequenceContainerIterator.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFSingleton.h" />
+    <ClInclude Include="..\..\..\include\framework\util\SMFSingletonDetail.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogAppenderContext.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogFileAppenderImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFLoggerImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogImplPrerequisites.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFLogManagerImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\log\SMFRollingFileAppenderImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFClockImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFCoreLog.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFCorePrerequisites.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFDynamicLibrary.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFMediaTransformManager.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFPluginManager.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFPresentationClockImpl.h" />
+    <ClInclude Include="..\..\..\src\framework\pipeline\SMFSourceResolver.h" />
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryBufferFactory.h" />
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryMediaBuffer.h" />
+    <ClInclude Include="..\..\..\src\framework\primitives\SMFSystemMemoryVideoBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogFileAppenderImpl.cpp" />
+    <ClCompile Include="..\..\..\src\framework\log\SMFLoggerImpl.cpp" />
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogLevel.cpp" />
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\log\SMFLogManagerImpl.cpp" />
+    <ClCompile Include="..\..\..\src\framework\log\SMFRollingFileAppenderImpl.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFCoreLog.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFDynamicLibrary.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFHighResolutionClock.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFMediaManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFMediaTransformManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFPluginManager.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFPresentationClockImpl.cpp" />
+    <ClCompile Include="..\..\..\src\framework\pipeline\SMFSourceResolver.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFPixelFormat.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFPlaneInfo.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFRect.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryBufferFactory.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryMediaBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFSystemMemoryVideoBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFWrapperMediaBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\framework\primitives\SMFWrapperVideoBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\framework\SMFException.cpp" />
+    <ClCompile Include="..\..\..\src\framework\thread\SMFAsyncCommandQueue.cpp" />
+    <ClCompile Include="..\..\..\src\framework\thread\SMFWorkQueue.cpp" />
+    <ClCompile Include="..\..\..\src\framework\util\SMFBitrateCounter.cpp" />
+    <ClCompile Include="..\..\..\src\framework\util\SMFClock.cpp" />
+    <ClCompile Include="..\..\..\src\framework\util\SMFFramerateCounter.cpp" />
+    <ClCompile Include="..\..\..\src\framework\util\SMFReferenceCount.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

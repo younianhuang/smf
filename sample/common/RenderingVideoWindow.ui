@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RenderingVideoWindow</class>
+ <widget class="QMainWindow" name="RenderingVideoWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>General Test</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionCreatePIP"/>
+    <addaction name="actionCreateRectangle"/>
+    <addaction name="actionCreatePolygon"/>
+    <addaction name="actionCreateSprite"/>
+    <addaction name="actionDestroyRenderable"/>
+    <addaction name="separator"/>
+    <addaction name="actionCreateButton"/>
+    <addaction name="actionDestroyButton"/>
+    <addaction name="actionShowButtons"/>
+    <addaction name="actionHideButton"/>
+    <addaction name="separator"/>
+    <addaction name="actionEnableCanvas"/>
+   </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>Format</string>
+    </property>
+    <addaction name="actionRGB32"/>
+    <addaction name="actionYUV420"/>
+    <addaction name="actionYV12"/>
+   </widget>
+   <widget class="QMenu" name="menuStatistics">
+    <property name="title">
+     <string>Statistics</string>
+    </property>
+    <addaction name="actionCPU"/>
+    <addaction name="actionMem"/>
+    <addaction name="actionFPS"/>
+    <addaction name="actionBandwidth"/>
+   </widget>
+   <widget class="QMenu" name="menuResolution">
+    <property name="title">
+     <string>Resolution</string>
+    </property>
+    <addaction name="action256x256"/>
+    <addaction name="actionCIF"/>
+    <addaction name="action512x512"/>
+    <addaction name="actionD1"/>
+    <addaction name="action720p"/>
+    <addaction name="action1080p"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionOpenGL"/>
+    <addaction name="actionSystem"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionNewWindow"/>
+    <addaction name="actionChangeLayout"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExportReport"/>
+    <addaction name="actionScreenshot"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuFormat"/>
+   <addaction name="menuStatistics"/>
+   <addaction name="menuResolution"/>
+   <addaction name="menuInfo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCreatePIP">
+   <property name="text">
+    <string>Create PIP</string>
+   </property>
+  </action>
+  <action name="actionChangeLayout">
+   <property name="text">
+    <string>Change Layout</string>
+   </property>
+  </action>
+  <action name="actionRGB32">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>RGB32</string>
+   </property>
+  </action>
+  <action name="actionYUV420">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>YUV420</string>
+   </property>
+  </action>
+  <action name="actionYV12">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>YV12</string>
+   </property>
+  </action>
+  <action name="actionFPS">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FPS</string>
+   </property>
+  </action>
+  <action name="actionCPU">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>CPU</string>
+   </property>
+  </action>
+  <action name="actionMem">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Memory</string>
+   </property>
+  </action>
+  <action name="actionCreateRectangle">
+   <property name="text">
+    <string>Create Rectangle</string>
+   </property>
+  </action>
+  <action name="actionCreatePolygon">
+   <property name="text">
+    <string>Create Polygon</string>
+   </property>
+  </action>
+  <action name="actionCreateSprite">
+   <property name="text">
+    <string>Create Sprite</string>
+   </property>
+  </action>
+  <action name="actionDestroyRenderable">
+   <property name="text">
+    <string>Destroy Renderable</string>
+   </property>
+  </action>
+  <action name="actionNewWindow">
+   <property name="text">
+    <string>New Window</string>
+   </property>
+  </action>
+  <action name="actionCIF">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>CIF</string>
+   </property>
+  </action>
+  <action name="actionD1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>D1</string>
+   </property>
+  </action>
+  <action name="action720p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>720p</string>
+   </property>
+  </action>
+  <action name="action1080p">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>1080p</string>
+   </property>
+  </action>
+  <action name="actionBandwidth">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Bandwidth</string>
+   </property>
+  </action>
+  <action name="actionOpenGL">
+   <property name="text">
+    <string>OpenGL</string>
+   </property>
+  </action>
+  <action name="actionSystem">
+   <property name="text">
+    <string>System</string>
+   </property>
+  </action>
+  <action name="actionExportReport">
+   <property name="text">
+    <string>Export Report</string>
+   </property>
+  </action>
+  <action name="actionCreateButton">
+   <property name="text">
+    <string>Create Button</string>
+   </property>
+  </action>
+  <action name="actionDestroyButton">
+   <property name="text">
+    <string>Destroy Button</string>
+   </property>
+  </action>
+  <action name="actionShowButtons">
+   <property name="text">
+    <string>Show Buttons</string>
+   </property>
+  </action>
+  <action name="actionHideButton">
+   <property name="text">
+    <string>Hide Button</string>
+   </property>
+  </action>
+  <action name="actionScreenshot">
+   <property name="text">
+    <string>Screenshot</string>
+   </property>
+  </action>
+  <action name="action256x256">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>256 x 256</string>
+   </property>
+  </action>
+  <action name="action512x512">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>512 x 512</string>
+   </property>
+  </action>
+  <action name="actionEnableCanvas">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Enable Canvas</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

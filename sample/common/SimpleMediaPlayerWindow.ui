@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimpleMediaPlayerWindow</class>
+ <widget class="QMainWindow" name="SimpleMediaPlayerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>&amp;Window</string>
+    </property>
+    <addaction name="actionChange_Layout"/>
+   </widget>
+   <widget class="QMenu" name="menuStatistics">
+    <property name="title">
+     <string>&amp;Statistics</string>
+    </property>
+    <addaction name="actionCPU"/>
+    <addaction name="actionMemory"/>
+    <addaction name="actionFPS"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>&amp;Options</string>
+    </property>
+    <addaction name="actionRendering_Video"/>
+    <addaction name="actionDecode_Video"/>
+    <addaction name="actionDown_Scaling"/>
+    <addaction name="actionThread_Number"/>
+    <addaction name="actionTimingControl"/>
+    <addaction name="actionSetRate"/>
+    <addaction name="action_Hardware_Decode"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpenFile"/>
+    <addaction name="actionOpen_Network_Stream"/>
+    <addaction name="actionExportReport"/>
+    <addaction name="actionScreenshot"/>
+   </widget>
+   <widget class="QMenu" name="menu_Control">
+    <property name="title">
+     <string>&amp;Control</string>
+    </property>
+    <addaction name="action_Play"/>
+    <addaction name="action_Stop"/>
+    <addaction name="action_Pause"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menu_Control"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuStatistics"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionChange_Layout">
+   <property name="text">
+    <string>&amp;Change Layout</string>
+   </property>
+  </action>
+  <action name="actionFPS">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FPS</string>
+   </property>
+  </action>
+  <action name="actionCPU">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>CPU</string>
+   </property>
+  </action>
+  <action name="actionMemory">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Memory</string>
+   </property>
+  </action>
+  <action name="actionRendering_Video">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Rendering Video</string>
+   </property>
+  </action>
+  <action name="actionDecode_Video">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>De&amp;code Video</string>
+   </property>
+  </action>
+  <action name="actionDown_Scaling">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Down Scaling</string>
+   </property>
+  </action>
+  <action name="actionThread_Number">
+   <property name="text">
+    <string>Thread &amp;Number</string>
+   </property>
+  </action>
+  <action name="actionTimingControl">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Timing Control</string>
+   </property>
+  </action>
+  <action name="actionSetRate">
+   <property name="text">
+    <string>&amp;Set Rate</string>
+   </property>
+  </action>
+  <action name="actionExportReport">
+   <property name="text">
+    <string>&amp;Export Report</string>
+   </property>
+  </action>
+  <action name="actionScreenshot">
+   <property name="text">
+    <string>&amp;Screenshot</string>
+   </property>
+  </action>
+  <action name="actionOpenFile">
+   <property name="text">
+    <string>Open &amp;File...</string>
+   </property>
+  </action>
+  <action name="action_Play">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>P&amp;lay</string>
+   </property>
+  </action>
+  <action name="action_Stop">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Stop</string>
+   </property>
+  </action>
+  <action name="action_Pause">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Pause</string>
+   </property>
+  </action>
+  <action name="action_Hardware_Decode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Hardware Decode</string>
+   </property>
+  </action>
+  <action name="actionOpen_Network_Stream">
+   <property name="text">
+    <string>Open &amp;Network Stream...</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

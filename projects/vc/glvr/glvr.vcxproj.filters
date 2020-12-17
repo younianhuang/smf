@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="來源檔案\rendering">
+      <UniqueIdentifier>{efc3dd9e-1446-41f1-8d0b-6d215e098497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\rendering\win32">
+      <UniqueIdentifier>{0630d5a2-bac0-4fa6-9db8-bb49f20bf3c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVR.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRCapabilities.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRColor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRConfig.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRException.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIConvexShape.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIRenderable.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIRetangleShape.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIShape.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRISprite.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRITexture.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIVideoPane.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRIVideoRenderer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRLog.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRPrerequisites.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVector2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVector3.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\renderer\VideoRenderer\GLVRVideoRendererManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRConvexShapeImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRImplPrerequisites.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRLog.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRPixmapVideoBuffer.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRRetangleShapeImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRSpriteImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRTextureImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoPaneImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManagerImpl.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRConvexShape.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLContext.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLContextManager.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLError.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUBufferManager.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgram.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgramManager.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRImage.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexBuffer.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexData.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRMaterial.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPixelBuffer.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPredefinedShaders.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRE.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderable.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEngine.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEnginePrerequisites.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderOperation.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderQueue.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderTarget.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindow.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindowFactory.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRetangleShape.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShader.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShape.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTexture.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTextureManager.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexAttribute.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexBuffer.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexData.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRViewPort.h">
+      <Filter>來源檔案\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Defines.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9DeviceManager.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Manager.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Surface.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWGLContext.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32Prerequisites.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindow.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindowFactory.h">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRColor.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRConvexShapeImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRLog.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRPixmapVideoBuffer.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRRetangleShapeImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRSpriteImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRTextureImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoPaneImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManager.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\GLVRVideoRendererManagerImpl.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRConvexShape.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGLError.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUBufferManager.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgram.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRGPUProgramManager.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRImage.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRIndexBuffer.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRMaterial.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRPredefinedShaders.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderable.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderEngine.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderOperation.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderQueue.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderTarget.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRenderWindow.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRRetangleShape.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShader.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRShape.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTexture.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRTextureManager.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexAttribute.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexBuffer.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRVertexData.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\GLVRViewPort.cpp">
+      <Filter>來源檔案\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9DeviceManager.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Manager.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRD3D9Surface.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWGLContext.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindow.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\renderer\VideoRenderer\rendering\win32\GLVRWin32RenderWindowFactory.cpp">
+      <Filter>來源檔案\rendering\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
